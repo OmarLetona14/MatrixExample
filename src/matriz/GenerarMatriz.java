@@ -29,13 +29,12 @@ public class GenerarMatriz {
             System.out.println("Solo pueden introducirse valores mayores a cero");
             mostrarMenu();
         }
-        System.out.println("---------- NUMEROS PARES ----------" );
-        System.out.println("");
-        imprimirMatriz(matrix_pares);
         System.out.println("---------- NUMEROS IMPARES ----------" );
         System.out.println("");
         imprimirMatriz(matrix_impares);
-        
+        System.out.println("---------- NUMEROS PARES ----------" );
+        System.out.println("");
+        imprimirMatriz(matrix_pares);  
     }
     
     public void llenarMatriz(int tamanio_matriz){
