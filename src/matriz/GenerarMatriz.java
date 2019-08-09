@@ -44,7 +44,7 @@ public class GenerarMatriz {
             for(int j = 0;j<tamanio_matriz;j++){
                 matrix_impares[i][j] = numero_llenado + 1;
                 numero_llenado +=2;
-                matrix_pares[i][j] = numero_llenado;
+                matrix_pares[j][i] = numero_llenado;
             }
         }
     }
